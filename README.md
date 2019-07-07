@@ -1,0 +1,1 @@
+This project is practicing HTML/CSS by deconstructing and rebuilding the web page on my own. It will be my first HTML/CSS project.
