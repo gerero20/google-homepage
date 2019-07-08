@@ -1,0 +1,177 @@
+.navbar {
+    width: 100%; 
+    text-align: center;
+}
+
+.navbar a {
+    color: #000000;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    opacity: 0.75;
+    padding-left: 15px;
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+.navbar .left {
+    position: absolute;
+    margin: 1px 25px 1px 15px;
+    padding-left: 1px;
+    display: flex;
+    top:10px;
+    left: 0;
+}
+
+.navbar .right {
+    position: absolute;
+    margin: 1px 15px 1px 20px;
+    padding-right: 150px;
+    display: flex;
+    top: 10px;
+    right: 0;
+    text-align: center;
+}
+
+#sign{
+    padding-top: 15px;
+    padding-right: 10px;
+    margin: 1px 15px 1px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10px;
+    position: absolute;
+    top: 10px;
+    right: 3px;
+}
+
+#sign a {
+    background-color: rgb(67, 135, 253);
+    color:white;    
+    opacity: 0.75;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    line-height: 10px;
+    padding: 7px 10px 7px 10px;
+    background-position: relative;
+    text-align: center; 
+}
+
+#blocks {
+    padding-top: 15px;
+    padding-right: 10px;
+    opacity: 0.65;
+    margin: 1px 15px 1px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 23px;
+    right: 100px;
+    width: 0.9%;
+    height: 0.9%;
+    background-image: url("blockies.png");
+}
+
+
+
+#blocks a {
+    color:white;    
+    font-size: 13px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#main-image {
+    position: absolute;
+    top: 90px;
+    left: 420px;
+    width: 520px;
+    height: 210px;
+    background-image: url("https://www.google.com/logos/doodles/2019/celebrating-womens-world-cup-2019-runner-up-5444068524425216-l.png")
+}
+
+#search-bar {
+    position: absolute;
+    top: 317px;
+    left: 395px;
+    color: black;
+}
+    
+#search-bar input {
+    width: 570px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-color: rgb(226, 226, 226);
+    border-radius: 20px;
+}
+
+
+.search-buttons {
+    padding-top: 15px;
+    padding-right: 20px;
+    margin: 1px 3px 1px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10px;
+    position: absolute;
+    top: 388px;
+    left: 515px;
+    color: black;
+}
+
+.search-buttons a {
+    background-color: rgb(242, 242, 242); 
+    color: rgb(7, 7, 7);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1px 7px 1px 7px;
+    line-height: 10px;
+    padding: 7px 4px 7px 10px;
+    background-position: relative;
+    text-align: center; 
+}
+
+.foot-bar {
+    width: 100%;
+    text-align: center;
+}
+
+.foot-bar a {
+    color: rgb(32, 32, 32);
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    opacity: 0.75;
+    padding-left: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.foot-bar .left-foot {
+    position: absolute;
+    margin: 1px 25px 1px 15px;
+    padding-left: 1px;
+    display: flex;
+    bottom: 10px;
+    left: 0;
+}
+
+.foot-bar .right-foot {
+    position: absolute;
+    margin: 1px 1px 1px 1px;
+    padding-right: 150px;
+    display: inline-block;
+    bottom: 10px;
+    right: -100px;
+}
+
+.footer{
+        width: auto;
+        height: auto;
+        background-color: blue;
+        overflow:auto;
+    }
+}
